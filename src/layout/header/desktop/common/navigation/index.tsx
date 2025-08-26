@@ -43,7 +43,7 @@ export function Navigation({ menuItems }: Pick<HeaderProps, 'menuItems'>) {
                     aria-label="sumenu-items"
                     className={cn([
                       // Layout
-                      'absolute  left-0 top-full z-40 w-[230px] overflow-hidden bg-accent-700 shadow-lg dark:bg-accent-700',
+                      'absolute  left-0 top-full z-40 w-[230px] overflow-hidden bg-white shadow-lg dark:bg-white',
 
                       // Submenu normal
                       'origin-[0_0_0] scale-y-0 transition-transform duration-350',
