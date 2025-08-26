@@ -26,7 +26,7 @@ export function SectionHeading({
   return (
     <div className={wrapperClasses}>
       <h2
-        className="text-left font-secondary text-xl font-bold leading-[1.25] text-accent-900 dark:text-white md:text-3xl"
+        className="text-left font-secondary text-xl font-bold leading-[1.25] text-accent-900 dark:text-accent-900 md:text-3xl"
         dangerouslySetInnerHTML={{ __html: title }}
       />
       {subtitle && (
@@ -35,7 +35,7 @@ export function SectionHeading({
         </span>
       )}
       {description && (
-        <p className="mt-2 whitespace-pre-line text-accent-900 dark:text-white">
+        <p className="mt-2 whitespace-pre-line text-accent-900 dark:text-accent-900">
           {description}
         </p>
       )}
