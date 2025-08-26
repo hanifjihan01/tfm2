@@ -29,7 +29,7 @@ export function ServiceCard({ icon, title, description, slug }: ServiceProps) {
           <h2 className="text-md font-bold leading-[1.25] md:text-lg">
             <CustomLink href={slug}>{title}</CustomLink>
           </h2>
-          <span className="ml-auto flex-none text-[2.5rem] text-[#4AC4F3] transition-all duration-300 group-hover/service:scale-90 md:text-[4rem]">
+          <span className="ml-auto flex-none text-[2.5rem] text-accent-900  transition-all duration-300 group-hover/service:scale-90 md:text-[4rem]">
             {icon}
           </span>
         </div>
@@ -48,7 +48,7 @@ export function ServiceCard({ icon, title, description, slug }: ServiceProps) {
 
       <div className="mt-6">
         <CustomLink href={slug}>
-          <span className="inline-flex items-center gap-1 text-sm font-medium text-[#4AC4F3] hover:underline">
+          <span className="inline-flex items-center gap-1 text-sm font-medium text-accent-900  hover:underline">
             Read More
             <svg
               className="h-3 w-3"
@@ -62,7 +62,7 @@ export function ServiceCard({ icon, title, description, slug }: ServiceProps) {
         </CustomLink>
       </div>
 
-      <span className="invisible absolute bottom-0 left-0 h-[2px] w-full scale-x-[30%] bg-[#4AC4F3] opacity-0 transition-all duration-400 group-hover/service:visible group-hover/service:scale-x-100 group-hover/service:opacity-100"></span>
+      <span className="invisible absolute bottom-0 left-0 h-[2px] w-full scale-x-[30%] text-accent-900  opacity-0 transition-all duration-400 group-hover/service:visible group-hover/service:scale-x-100 group-hover/service:opacity-100"></span>
     </motion.article>
   );
 }

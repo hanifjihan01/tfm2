@@ -23,7 +23,7 @@ export function ServiceCard({
     <article
       className={cn([
         // General
-        'group bg-white text-accent-900 shadow-3 transition-transform duration-350 dark:bg-accent-700 dark:text-white  dark:shadow-none',
+        'group bg-white text-accent-900 shadow-3 transition-transform duration-350 dark:bg-white dark:text-white  dark:shadow-none',
 
         // Layout
         'relative z-1 block h-full overflow-hidden rounded-5',
@@ -35,7 +35,7 @@ export function ServiceCard({
           'relative z-1',
 
           // before => shape
-          'before:absolute before:-bottom-px before:-right-px before:left-0 before:z-[2] before:h-[65px] before:bg-white before:[clip-path:polygon(100%_0%,0%_100%,100%_100%)] dark:before:bg-accent-700',
+          'before:absolute before:-bottom-px before:-right-px before:left-0 before:z-[2] before:h-[65px] before:bg-white before:[clip-path:polygon(100%_0%,0%_100%,100%_100%)] dark:before:bg-white',
 
           // after => image overlay effect
           'after:pointer-events-none after:absolute after:left-0 after:top-0 after:z-1 after:h-0 after:w-full after:bg-white/30 after:opacity-100',
