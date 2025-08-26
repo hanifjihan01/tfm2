@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-const serviceData = [
+const apaAja = [
   {
     id: 1,
     image: '/assets/images/service/theme1.png',
@@ -44,7 +44,7 @@ export function OurApproach() {
 
       {/* Grid Responsive */}
       <div className="container mx-auto flex flex-wrap justify-center gap-6 px-4 sm:px-6">
-        {serviceData.map((item) => (
+        {apaAja.map((item) => (
           <div
             key={item.id}
             className="
