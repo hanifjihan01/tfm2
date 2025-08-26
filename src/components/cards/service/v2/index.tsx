@@ -83,7 +83,7 @@ export function ServiceCard({
           className={cn(
             // Normal
             // General
-            'relative z-1 grid h-10 w-10 place-items-center rounded-5 bg-primary/10 text-sm text-primary transition-colors duration-300 dark:bg-accent-900',
+            'relative z-1 grid h-10 w-10 place-items-center rounded-5 bg-primary/10 text-sm text-accent-900 transition-colors duration-300 dark:bg-white',
 
             // After
             'after:absolute after:inset-0 after:-z-1 after:origin-top after:rounded-[inherit] after:bg-primary after:transition-all after:duration-700 after:[transform:perspective(400px)_rotateX(-90deg)_scale(0.2)]',
