@@ -34,9 +34,10 @@ export function HeroBaru() {
   const { items } = heroData;
 
   return (
-    <section className={styles['hero']}>
+    <section className={`${styles['hero']} bg-white`}>
       {items && items.length > 0 && (
         <Swiper
+          className="bg-white"
           effect="fade"
           loop={false}
           speed={300}
