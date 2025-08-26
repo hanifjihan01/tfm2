@@ -31,13 +31,13 @@ const apaAja = [
 
 export function OurApproach() {
   return (
-    <section className="py-16">
+    <section className="bg-white py-16">
       {/* Heading */}
       <div className="mb-12 px-4 text-center">
         <h3 className="text-2xl font-bold text-gray-900 md:text-3xl">
           Our Approach
         </h3>
-        <p className="-mt-6 text-base text-gray-600 md:text-lg">
+        <p className="-mt-6 text-base text-gray-700 md:text-lg">
           Lorem ipsum dolor sit amet consectetur. Orci mattis.
         </p>
       </div>
@@ -66,7 +66,7 @@ export function OurApproach() {
             {/* Overlay gradasi putih dari kanan */}
             <div className="absolute inset-0 bg-gradient-to-l from-white/95 to-transparent" />
 
-            {/* Konten teks di sebelah kanan */}
+            {/* Konten teks */}
             <div className="absolute inset-0 flex flex-col items-start justify-center px-4 sm:items-end sm:px-6">
               <h3 className="max-w-[100%] text-left text-xl font-bold text-gray-900 sm:max-w-[60%]">
                 {item.title}
