@@ -61,7 +61,7 @@ export function HeroBaru() {
                   <div
                     className={cn(
                       // tambahan md:pt agar turun di desktop
-                      'relative z-10 px-4 pt-10 text-center text-accent-900 dark:text-white md:pt-20 lg:pt-28',
+                      'relative z-10 px-4 pt-10 text-center text-accent-900 dark:text-accent-900 md:pt-20 lg:pt-28',
                       styles['hero-content']
                     )}
                   >
@@ -72,7 +72,7 @@ export function HeroBaru() {
                       </h1>
 
                       {/* Sub Judul */}
-                      <p className="text-sm text-gray-800 dark:text-gray-200 sm:text-base md:text-lg lg:text-xl">
+                      <p className="text-sm text-gray-800 dark:text-gray-800 sm:text-base md:text-lg lg:text-xl">
                         Solusi Kebutuhan Digital Anda!
                       </p>
 

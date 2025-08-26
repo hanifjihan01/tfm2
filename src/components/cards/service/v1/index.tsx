@@ -19,7 +19,7 @@ export function ServiceCard({ icon, title, description, slug }: ServiceProps) {
       transition={{ duration: 0.5, ease: 'easeOut' }}
       viewport={{ once: true, amount: 0.3 }}
       className={cn([
-        'group/service bg-white text-accent-900 shadow-3 transition-transform duration-350 dark:bg-accent-700 dark:text-white dark:shadow-none',
+        'group/service bg-white text-accent-900 shadow-3 transition-transform duration-350 dark:bg-white dark:text-accent-900  dark:shadow-3',
         'relative z-1 flex h-full flex-col justify-between overflow-hidden rounded-5 p-6 md:p-10',
         'hover:[transform:translateY(-.5rem)]',
       ])}
@@ -34,7 +34,7 @@ export function ServiceCard({ icon, title, description, slug }: ServiceProps) {
           </span>
         </div>
 
-        <div className="mt-4 space-y-1 text-accent-800 dark:text-body">
+        <div className="mt-4 space-y-1 text-accent-800 dark:text-accent-800">
           {description.map(
             (line, index) =>
               line && (
