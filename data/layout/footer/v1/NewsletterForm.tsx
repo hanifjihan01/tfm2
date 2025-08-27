@@ -22,7 +22,7 @@ export function NewsletterForm() {
           placeholder="Masukkan email anda"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full rounded-md border border-accent-200 px-4 py-2 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary dark:border-accent-700 dark:bg-transparent dark:text-white"
+          className="w-full rounded-md border border-accent-200 px-4 py-2 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary dark:border-accent-200 dark:bg-transparent dark:text-white"
           required
         />
         <button
